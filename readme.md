@@ -23,5 +23,18 @@ A Node.js CLI app to calculate the **total ETH balance** held by all holders of 
 ```bash
 git clone https://github.com/your-username/bayc-eth-tracker.git
 cd bayc-eth-tracker
+```
+
+### 2. Install Package
+```bash
 npm install
-touch .env
+```
+### 3. Copy and Fill env
+```bash
+cp .env.example .env
+```
+
+## ▶️ Usage
+```bash
+node main.js
+```
